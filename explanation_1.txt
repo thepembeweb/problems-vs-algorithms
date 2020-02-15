@@ -1,0 +1,13 @@
+Analysis
+
+This algorithm uses binary search between 0 and the number given to find the floored 
+square root number. Binary search guarantees a logarithmic complexity since each iteration
+of the while loop cuts the range in half until the range is just one element left.
+
+Time complexity: The time complexity is logarithmic O(log n) because given the initial 
+problem of size n (to find the square root of a number), the size n is divided into 
+sub-problem of size n/2 until we reach a problem of size 1.
+
+Space complexity: The space complexity is constant O(1) because the algorithm 
+maintains the same total size of new variables allocated to memory during 
+runtime, regardless of input size.
