@@ -1,0 +1,27 @@
+Analysis
+
+This algorithm implements Autocomplete using a Trie data structure. The Trie 
+data structure is a tree with each node consisting of one letter as data and 
+pointer to the next node. It uses Finite Deterministic automation which means
+that it uses state to state transition.
+
+Time Complexity & Space Complexity Analysis:
+
+TrieNode: Insert a character: 
+Time complexity: The space complexity is constant O(1) because has a running 
+time independent of the input size
+Space complexity: The space complexity is constant O(1) because the algorithm 
+maintains the same total size of new variables allocated to memory during 
+runtime, regardless of input size.
+
+Suffixes of a node: 
+Time complexity: The time complexity is quadratic O(m*h) where m is maximum
+number of elements in one level and h is the height. 
+Space complexity: The space complexity is quadratic O(m*h) where m is maximum
+number of elements in one level and h is the height.
+
+Trie: Inserting and searching : 
+Time complexity: The time complexity is linear O(n) where n is the length 
+of the word.
+Space complexity: The space complexity is linear O(n) where n is the length
+of the word.
