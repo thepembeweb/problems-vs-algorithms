@@ -1,0 +1,13 @@
+Analysis
+
+This algorithm sorts the array in-place in a single traversal and also it keeps 
+track of location of index of last ordered 0, and first ordered 2 Mid index 
+keeps track of how many elements have been checked in array.
+
+Time complexity: The time complexity is linear O(n) because it has one for-loop 
+that iterates from 1 to n which results in a running time grows directly in 
+proportion to n. 
+
+Space complexity: The space complexity is constant O(1) because, by sorting the 
+array in-place, the algorithm maintains the same total size of new variables 
+allocated to memory during runtime, regardless of input size.
